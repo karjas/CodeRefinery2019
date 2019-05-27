@@ -12,3 +12,9 @@ Command `git branch branchname` creates a new branch from **the current branch**
 
 - When merging we need to be in the branch **That the other branch is merged to**
  
+## Merging conflicts
+
+Running merge may result in a conflict. The conflicting file can also be seen with `git status`. More information can be seen with `git diff`. 
+
+- Open the file and remove the better code
+- Run `git merge --continue`
